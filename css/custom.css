@@ -38,7 +38,7 @@ h3 {
   background-size: cover;
   min-height: 80%;
   min-height: 80vh;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   margin-bottom: 0px;
   transition: background 2s;
 }
@@ -87,7 +87,7 @@ footer{
   background-size: cover;
   min-height: 80%;
   min-height: 80vh;
-  background-attachment: fixed;
+  /*background-attachment: fixed;*/
   margin-bottom: 0px;
 }
 
