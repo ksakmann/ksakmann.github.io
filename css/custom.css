@@ -41,6 +41,8 @@ h3 {
   /*background-attachment: fixed;*/
   margin-bottom: 0px;
   transition: background 2s;
+  -webkit-transition: background 2s;
+          transition: background 2s;
 }
 
 
