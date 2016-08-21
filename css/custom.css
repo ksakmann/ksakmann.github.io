@@ -1,0 +1,99 @@
+html{
+  height: 100%;
+}
+
+
+body{
+  min-height: 2000px; 
+  padding-top: 50px;
+  padding-bottom: 20px;
+  color:#777;
+  background-color: #f8f8f8;
+  font-family: 'Roboto', sans-serif;
+}
+
+section, 
+footer{
+  padding: 60px 0;
+}
+
+/* typography
+-------------------------------------------------- */
+
+
+p{
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+
+h3 {
+	font-weight: 200;
+}
+
+/* section styling
+-------------------------------------------------- */
+.jumbotron{
+  background: #f8f8f8 url('../images/collision.png') no-repeat center;
+  background-size: cover;
+  min-height: 80%;
+  min-height: 80vh;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+  transition: background 2s;
+}
+
+
+#publications, 
+#contact{
+	background-color:#EEEEEE;
+	color:#212121;
+}
+
+#about,
+#awards,
+footer{
+	color:#212121;
+}
+
+ /* images and icons
+ -------------------------------------------------- */
+
+ .profile-photo{
+  display: block;
+  max-width: 200px;
+  margin: 20px auto 10px;
+  border-radius: 100%;
+  padding-top: 20px;  
+}
+
+
+.fa{
+	color: #777;
+  padding: 0 0 30px;
+
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (min-width: 930px){
+
+/* switch to large image
+-------------------------------------------------- */
+.jumbotron{
+  background: #f8f8f8 url('../images/collision_landscape.png') no-repeat center;
+  background-size: cover;
+  min-height: 80%;
+  min-height: 80vh;
+  background-attachment: fixed;
+  margin-bottom: 0px;
+}
+
+
+}
+
+
+
+
