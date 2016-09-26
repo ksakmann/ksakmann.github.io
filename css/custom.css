@@ -329,6 +329,15 @@ display:block;
 
 
 /*Award section*/
+
+/*.year > p {
+  padding-top: 10px;
+}*/
+
+.award-name{
+  margin-top: 0;
+}
+
 .award-row > .col-md-4{
 padding-top: 15px;
 }
@@ -403,8 +412,8 @@ padding-top: 15px;
   text-align: center;
 }
 
-.year{
-font-size: 1.2857em;
+.year > p{
+font-size: 18px;
 }
 
 .fa-shield{
