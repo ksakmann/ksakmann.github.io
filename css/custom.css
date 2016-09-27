@@ -1,6 +1,7 @@
 html{
   height: 100%;
   font-size: 1em;
+	background-color: black;
 }
 
 
@@ -13,7 +14,15 @@ body{
   font-family: 'Open Sans', sans-serif;
   position: relative;
   font-weight: 400;
+-webkit-transition:1s opacity;
+transition: 1s opacity;
 
+}
+
+body.fade-out{
+  opacity: 0;
+-webkit-transition:1s opacity;
+  transition: none;
 }
 
 section, footer {
