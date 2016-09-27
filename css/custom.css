@@ -100,6 +100,7 @@ a:focus{
 .navbar-custom .navbar-nav-custom>.active>a:hover,
 .navbar-custom .navbar-nav-custom>.active>a:focus{
   color: #777;
+	background-color: transparent;
 }
 
 .navbar-custom .navbar-nav-custom>.active>a{
@@ -305,6 +306,8 @@ display:block;
 .close-custom{
   color:#212121;
   opacity:1;
+	font-size: 25px;
+	margin-right: 10px;
 }
 
 .close-custom:hover{
