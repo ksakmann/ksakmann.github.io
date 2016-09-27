@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
   ///////////// fadeIn on load
-  $('.jumbotron').css('display', 'none').fadeIn(1500);
+  $('body').removeClass('fade-out');
 
 ////////////// Add scrollspy to <body>
   $('body').scrollspy({target: "#navbar", offset: 50});
