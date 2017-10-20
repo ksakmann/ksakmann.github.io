@@ -77,6 +77,13 @@ a:focus {
     text-decoration: none;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 800;
+}
 
 /* section styling
 -------------------------------------------------- */
