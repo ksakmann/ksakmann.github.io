@@ -22,7 +22,7 @@ $(document).ready(function(){
       $('html, body').animate({
         scrollTop: $(hash).offset().top
       }, 800, 'swing', function(){
-   
+
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
@@ -47,16 +47,13 @@ function controlDisplay(width){
 
 controlDisplay($(window).width());
 
-////////////// Match column height of award section
-$('.equalHeight').matchHeight();
-
 
 ///////////// Hamburger animation
 
 $(".navbar-toggle").on("click", function () {
             $(this).toggleClass("selected");
         });
-  
- 
+
+
 
 });
