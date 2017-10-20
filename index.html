@@ -44,234 +44,207 @@
             </div>
         </div>
     </nav>
-    <!-- MAIN CONTENT
-    ================================================== -->
     <!--background image container -->
     <div class="jumbotron">
         <div class="container-fluid">
         </div>
     </div>
     <!-- About section-->
-    <section id="about">
-        <div class="container">
+    <section id="about" class="section">
+        <article class="container">
             <h2>About</h2>
             <div class="row">
                 <div class="col-md-8">
                     <p>I am a Physicist turned data scientist. I am currently working on big data and machine learning problems at T-Mobile Austria. I have a passion for deep learning and self driving cars. Please see my github repo linked below for projects. </p>
                     <p>As a physicist I have developed algorithms for the numerical solution of the quantum many-body problem on parallel computers and applied them to ultracold bosons, a very active field of research. During a Postdoctoral Research Fellowship at Stanford University I started working on computer vision problems. Specifically, I developed an imaging system for the 3D reconstruction of an atomic cloud from a single image. Ever since I have had a passion for computer vision, deep learning and data science. In 2015 I moved to Vienna, to work at the Institute of Atomic and Subatomic Physics of the TU Vienna and very recently I joined the newly established big data team at T-Mobile Austria.</p>
-                    <p>In Physics, the question I was most interested in was what happens when a quantum mechanical system is measured by shining a beam of light onto it. The measurement process makes all quantum correlations apparent in a photograph. I developed an algorithm that allows the simulation of such a measurement from first principles, see the Nature Physics paper below. </p>
+                    <p>In Physics, the question I was most interested in was what happens when a quantum mechanical system is measured by shining a beam of light onto it. The measurement process makes all quantum correlations apparent in a photograph. I developed an algorithm that allows the simulation of such a measurement from first principles, see the Nature Physics paper below.</p>
                 </div>
                 <div class="col-md-4">
                     <img src="images/mugshot.jpg" alt="Profile Image" class="center-block profile-photo">
                 </div>
             </div>
-        </div>
+        </article>
     </section>
     <!-- Publication section-->
-    <section id="publications">
+    <section id="publications" class="section">
         <div class="container">
             <h2>Selected Publications</h2>
-            <!-- Publication 1-->
             <div class="row top-row">
-                <div class="panel panel-default-custom">
-                    <div class="panel-body panel-custom">
-                        <div class="col-md-6">
-                            <div class="pub-img">
-                                <a class="image-link" href="#" data-toggle="modal" data-target="#modalNature"><img src="images/Nature/F1-Nature.png" alt="Nature Figure" class="center-block" id="img-nature"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="thumbnail-detail">
-                                <p class="author">Kaspar Sakmann and Mark Kasevich</p>
-                                <h4 class="title">Single-shot simulations of dynamic quantum many-body systems</h4>
-                                <p class="date"><em>Nature Physics</em>, 12, 451, Jan 2016</p>
-                                <ul class="fullpaperlink">
-                                    <li class="full-text"><a href="http://dx.doi.org/10.1038/nphys3631">Full Text</a></li>
-                                    <li class="arxiv"><a href="http://arxiv.org/abs/1501.03224">arXiv</a></li>
-                                </ul>
-                            </div>
-                            <div class="panel panel-default panel-abstract">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                          <a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractNature" aria-expanded="false" aria-controls="panel-abstract">
-                          Abstract
-                          </a>
-                        </h4>
-                                </div>
-                                <div id="abstractNature" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractNature">
-                                    <div class="panel-body">
-                                        <p>Single experimental shots of ultracold quantum gases sample the many-particle probability distribution. In a few cases such single shots could be successfully simulated from a given many-body wavefunction1, 2, 3, 4, but for realistic time-dependent many-body dynamics this has been difficult to achieve. Here, we show how single shots can be simulated from numerical solutions of the time-dependent many-body Schrödinger equation. Using this approach, we provide first-principle explanations for fluctuations in the collision of attractive Bose–Einstein condensates (BECs), for the appearance of randomly fluctuating vortices and for the centre-of-mass fluctuations of attractive BECs in a harmonic trap. We also show how such simulations provide full counting distributions and correlation functions of any order. Such calculations have not been previously possible and our method is broadly applicable to many-body systems whose phenomenology is driven by information beyond what is typically available in low-order correlation functions.</p>
+                <div class="col-md-12">
+                    <div class="panel panel-default-custom">
+                        <div class="panel-body panel-custom">
+                            <article class="row">
+                                <div class="col-md-6">
+                                    <div class="pub-img">
+                                        <a class="image-link" href="#" data-toggle="modal" data-target="#modalNature"><img src="images/Nature/F1-Nature.png" alt="Nature Figure" class="center-block" id="img-nature"></a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="thumbnail-detail">
+                                        <p class="author">Kaspar Sakmann and Mark Kasevich</p>
+                                        <h4 class="title">Single-shot simulations of dynamic quantum many-body systems</h4>
+                                        <p class="date"><em>Nature Physics</em>, 12, 451, Jan 2016</p>
+                                        <ul class="fullpaperlink">
+                                            <li class="full-text"><a href="http://dx.doi.org/10.1038/nphys3631">Full Text</a></li>
+                                            <li class="arxiv"><a href="http://arxiv.org/abs/1501.03224">arXiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <section class="panel panel-default panel-abstract">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title"><a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractNature" aria-expanded="false" aria-controls="panel-abstract">Abstract</a></h5>
+                                        </div>
+                                        <div id="abstractNature" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractNature">
+                                            <div class="panel-body">
+                                                <p>Single experimental shots of ultracold quantum gases sample the many-particle probability distribution. In a few cases such single shots could be successfully simulated from a given many-body wavefunction1, 2, 3, 4, but for realistic time-dependent many-body dynamics this has been difficult to achieve. Here, we show how single shots can be simulated from numerical solutions of the time-dependent many-body Schrödinger equation. Using this approach, we provide first-principle explanations for fluctuations in the collision of attractive Bose–Einstein condensates (BECs), for the appearance of randomly fluctuating vortices and for the centre-of-mass fluctuations of attractive BECs in a harmonic trap. We also show how such simulations provide full counting distributions and correlation functions of any order. Such calculations have not been previously possible and our method is broadly applicable to many-body systems whose phenomenology is driven by information beyond what is typically available in low-order correlation functions.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Publication 2-->
-            <div class="row">
-                <div class="panel panel-default-custom">
-                    <div class="panel-body panel-custom">
-                        <div class="col-md-6">
-                            <div class="pub-img">
-                                <a class="image-link" href="#" data-toggle="modal" data-target="#modalOptics"><img src="images/OpticsLetter/F1.svg" alt="Optics Figure" class="center-block" width="58%" height="auto" max-width="265px" viewbox="0 0 267 300">
-                    </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="thumbnail-detail">
-                                <p class="author">Kaspar Sakmann and Mark Kasevich</p>
-                                <h4 class="title">Single-shot three-dimensional imaging of dilute atomic clouds</h4>
-                                <p><em>Optics Letters</em>, 18, 5317, Sep 2014</p>
-                                <ul class="fullpaperlink">
-                                    <li class="full-text"><a href="http://dx.doi.org/10.1364/ol.39.005317">Full Text</a></li>
-                                    <li class="arxiv"><a href="http://arxiv.org/abs/1405.3598">arXiv</a></li>
-                                </ul>
-                            </div>
-                            <div class="panel panel-default panel-abstract">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                          <a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractOptics" aria-expanded="false" aria-controls="panel-abstract">
-                          Abstract
-                          </a>
-                        </h4>
-                                </div>
-                                <div id="abstractOptics" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractOptics">
-                                    <div class="panel-body">
-                                        <p>Light field microscopy methods together with three-dimensional (3D) deconvolution can be used to obtain single-shot 3D images of atomic clouds. We demonstrate the method using a test setup that extracts 3D images from a fluorescent Rubidium-87 atomic vapor.</p>
+                    <div class="panel panel-default-custom">
+                        <div class="panel-body panel-custom">
+                            <article class="row">
+                                <div class="col-md-6">
+                                    <div class="pub-img">
+                                        <a class="image-link" href="#" data-toggle="modal" data-target="#modalOptics"><img src="images/OpticsLetter/F1.svg" alt="Optics Figure" class="center-block" width="58%" height="auto" max-width="265px" viewbox="0 0 267 300"></a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="thumbnail-detail">
+                                        <p class="author">Kaspar Sakmann and Mark Kasevich</p>
+                                        <h4 class="title">Single-shot three-dimensional imaging of dilute atomic clouds</h4>
+                                        <p><em>Optics Letters</em>, 18, 5317, Sep 2014</p>
+                                        <ul class="fullpaperlink">
+                                            <li class="full-text"><a href="http://dx.doi.org/10.1364/ol.39.005317">Full Text</a></li>
+                                            <li class="arxiv"><a href="http://arxiv.org/abs/1405.3598">arXiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <section class="panel panel-default panel-abstract">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title"><a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractOptics" aria-expanded="false" aria-controls="panel-abstract">Abstract</a></h5>
+                                        </div>
+                                        <div id="abstractOptics" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractOptics">
+                                            <div class="panel-body">
+                                                <p>Light field microscopy methods together with three-dimensional (3D) deconvolution can be used to obtain single-shot 3D images of atomic clouds. We demonstrate the method using a test setup that extracts 3D images from a fluorescent Rubidium-87 atomic vapor.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Publication 3-->
-            <div class="row">
-                <div class="panel panel-default-custom">
-                    <div class="panel-body panel-custom">
-                        <div class="col-md-6">
-                            <div class="pub-img">
-                                <a class="image-link" href="#" data-toggle="modal" data-target="#modalNJP"><img src="images/NJP/F2.svg" alt="NJP Figure" class="center-block" width="80%" height="auto" max-width="425px" viewbox="0 0 425 301">
-                    </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="thumbnail-detail">
-                                <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
-                                <h4 class="title">Optimal time-dependent lattice models for nonequilibrium dynamics</h4>
-                                <p><em>New Journal of Physics</em>, Volume 13, April 2011</p>
-                                <ul class="fullpaperlink">
-                                    <li class="full-text"><a href="http://dx.doi.org/10.1088/1367-2630/13/4/043003">Full Text</a></li>
-                                    <li class="arxiv"><a href="http://arxiv.org/abs/1006.3530">arXiv</a></li>
-                                </ul>
-                            </div>
-                            <div class="panel panel-default panel-abstract">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                          <a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractNJP" aria-expanded="false" aria-controls="panel-abstract">
-                          Abstract
-                          </a>
-                        </h4>
-                                </div>
-                                <div id="abstractNJP" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractNJP">
-                                    <div class="panel-body">
-                                        <p>Lattice models are central to the physics of ultracold atoms and condensed matter. Generally, lattice models contain time-independent hopping and interaction parameters that are derived from the Wannier functions of the noninteracting problem. Here, we present a new concept based on time-dependent Wannier functions and the variational principle that leads to optimal time-dependent lattice models. As an application, we use the Bose–Hubbard model with time-dependent Wannier functions to study an interaction quench scenario involving higher bands. We find a separation of time-scales in the dynamics. The results are compared with numerically exact results of the time-dependent many-body Schrödinger equation. We thereby show that—under some circumstances—the multi-band nonequilibrium dynamics of a quantum system can be obtained essentially at the cost of a single-band model.</p>
+                    <div class="panel panel-default-custom">
+                        <div class="panel-body panel-custom">
+                            <article class="row">
+                                <div class="col-md-6">
+                                    <div class="pub-img">
+                                        <a class="image-link" href="#" data-toggle="modal" data-target="#modalNJP"><img src="images/NJP/F2.svg" alt="NJP Figure" class="center-block" width="80%" height="auto" max-width="425px" viewbox="0 0 425 301"></a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="thumbnail-detail">
+                                        <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
+                                        <h4 class="title">Optimal time-dependent lattice models for nonequilibrium dynamics</h4>
+                                        <p><em>New Journal of Physics</em>, Volume 13, April 2011</p>
+                                        <ul class="fullpaperlink">
+                                            <li class="full-text"><a href="http://dx.doi.org/10.1088/1367-2630/13/4/043003">Full Text</a></li>
+                                            <li class="arxiv"><a href="http://arxiv.org/abs/1006.3530">arXiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <section class="panel panel-default panel-abstract">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title"><a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractNJP" aria-expanded="false" aria-controls="panel-abstract">Abstract</a></h5>
+                                        </div>
+                                        <div id="abstractNJP" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractNJP">
+                                            <div class="panel-body">
+                                                <p>Lattice models are central to the physics of ultracold atoms and condensed matter. Generally, lattice models contain time-independent hopping and interaction parameters that are derived from the Wannier functions of the noninteracting problem. Here, we present a new concept based on time-dependent Wannier functions and the variational principle that leads to optimal time-dependent lattice models. As an application, we use the Bose–Hubbard model with time-dependent Wannier functions to study an interaction quench scenario involving higher bands. We find a separation of time-scales in the dynamics. The results are compared with numerically exact results of the time-dependent many-body Schrödinger equation. We thereby show that—under some circumstances—the multi-band nonequilibrium dynamics of a quantum system can be obtained essentially at the cost of a single-band model.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Publication 4-->
-            <div class="row">
-                <div class="panel panel-default-custom">
-                    <div class="panel-body panel-custom">
-                        <div class="col-md-6">
-                            <div class="pub-img">
-                                <a class="image-link" href="#" data-toggle="modal" data-target="#modalPRA"><img src="images/PRA/F1_AR-sm.svg" alt="PRA Figure" class="center-block" width="48%" height="auto" max-width=" 207px" viewbox="0 0 207 300"></a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="thumbnail-detail">
-                                <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
-                                <h4 class="title">Quantum dynamics of attractive versus repulsive bosonic Josephson junctions: Bose-Hubbard and full-Hamiltonian results</h4>
-                                <p><em>Physical Review A</em>, 82, 013620, Jul 2010</p>
-                                <ul class="fullpaperlink">
-                                    <li class="full-text"><a href="http://dx.doi.org/10.1103/physreva.82.013620">Full Text</a></li>
-                                    <li class="arxiv"><a href="http://arxiv.org/abs/0911.4661">arXiv</a></li>
-                                </ul>
-                            </div>
-                            <div class="panel panel-default panel-abstract">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                          <a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractPRA" aria-expanded="false" aria-controls="panel-abstract">
-                          Abstract
-                          </a>
-                        </h4>
-                                </div>
-                                <div id="abstractPRA" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractPRA">
-                                    <div class="panel-body">
-                                        <p>The quantum dynamics of one-dimensional bosonic Josephson junctions with attractive and repulsive interparticle interactions is studied by using the Bose-Hubbard model and by numerically exact computations of the full many-body Hamiltonian. A symmetry present in the Bose-Hubbard Hamiltonian dictates an equivalence between the evolution in time of the survival probability and the fragmentation of attractive and repulsive Josephson junctions with attractive and repulsive interactions of equal magnitude. The full many-body Hamiltonian does not possess this symmetry and, consequently, the dynamics of the attractive and repulsive junctions are different.</p>
+                    <div class="panel panel-default-custom">
+                        <div class="panel-body panel-custom">
+                            <article class="row">
+                                <div class="col-md-6">
+                                    <div class="pub-img">
+                                        <a class="image-link" href="#" data-toggle="modal" data-target="#modalPRA"><img src="images/PRA/F1_AR-sm.svg" alt="PRA Figure" class="center-block" width="48%" height="auto" max-width=" 207px" viewbox="0 0 207 300"></a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="thumbnail-detail">
+                                        <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
+                                        <h4 class="title">Quantum dynamics of attractive versus repulsive bosonic Josephson junctions: Bose-Hubbard and full-Hamiltonian results</h4>
+                                        <p><em>Physical Review A</em>, 82, 013620, Jul 2010</p>
+                                        <ul class="fullpaperlink">
+                                            <li class="full-text"><a href="http://dx.doi.org/10.1103/physreva.82.013620">Full Text</a></li>
+                                            <li class="arxiv"><a href="http://arxiv.org/abs/0911.4661">arXiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <section class="panel panel-default panel-abstract">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title"><a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractPRA" aria-expanded="false" aria-controls="panel-abstract">Abstract</a></h5>
+                                        </div>
+                                        <div id="abstractPRA" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractPRA">
+                                            <div class="panel-body">
+                                                <p>The quantum dynamics of one-dimensional bosonic Josephson junctions with attractive and repulsive interparticle interactions is studied by using the Bose-Hubbard model and by numerically exact computations of the full many-body Hamiltonian. A symmetry present in the Bose-Hubbard Hamiltonian dictates an equivalence between the evolution in time of the survival probability and the fragmentation of attractive and repulsive Josephson junctions with attractive and repulsive interactions of equal magnitude. The full many-body Hamiltonian does not possess this symmetry and, consequently, the dynamics of the attractive and repulsive junctions are different.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
                         </div>
                     </div>
-                </div>
-            </div>
-            <!-- Publication 5-->
-            <div class="row">
-                <div class="panel panel-default-custom">
-                    <div class="panel-body panel-custom">
-                        <div class="col-md-6">
-                            <div class="pub-img">
-                                <a class="image-link" href="#" data-toggle="modal" data-target="#modalPRL"><img src="images/PRL_Exact/F2-copy.svg" alt="PRL Figure" class="center-block" width="66%" height="auto" max-width="366" viewbox="0 0 366 300">
-                        </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="thumbnail-detail">
-                                <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
-                                <h4 class="title">Exact Quantum Dynamics of a Bosonic Josephson Junction</h4>
-                                <p><em>Physical Review Letters</em>, 103, 220601, Nov 2009</p>
-                                <ul class="fullpaperlink">
-                                    <li class="full-text"><a href="http://dx.doi.org/10.1103/physrevlett.103.220601">Full Text</a></li>
-                                    <li class="arxiv"><a href="http://arxiv.org/abs/0905.0902">arXiv</a></li>
-                                </ul>
-                            </div>
-                            <div class="panel panel-default panel-abstract">
-                                <div class="panel-heading">
-                                    <h4 class="panel-title">
-                              <a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractPRL" aria-expanded="false" aria-controls="panel-abstract">
-                              Abstract
-                              </a>
-                              </h4>
-                                </div>
-                                <div id="abstractPRL" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractPRL">
-                                    <div class="panel-body">
-                                        <p>The quantum dynamics of a one-dimensional bosonic Josephson junction is studied by solving the time-dependent many-boson Schrödinger equation numerically exactly. Already for weak interparticle interactions and on short time scales, the commonly employed mean-field and many-body methods are found to deviate substantially from the exact dynamics. The system exhibits rich many-body dynamics such as enhanced tunneling and a novel equilibration phenomenon of the junction depending on the interaction, which is attributed to a quick loss of coherence.</p>
+                    <div class="panel panel-default-custom">
+                        <div class="panel-body panel-custom">
+                            <article class="row">
+                                <div class="col-md-6">
+                                    <div class="pub-img">
+                                        <a class="image-link" href="#" data-toggle="modal" data-target="#modalPRL"><img src="images/PRL_Exact/F2-copy.svg" alt="PRL Figure" class="center-block" width="66%" height="auto" max-width="366" viewbox="0 0 366 300"></a>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="col-md-6">
+                                    <div class="thumbnail-detail">
+                                        <p class="author">Kaspar Sakmann, Alexej I. Streltsov, Ofir E. Alon, and Lorenz S. Cederbaum</p>
+                                        <h4 class="title">Exact Quantum Dynamics of a Bosonic Josephson Junction</h4>
+                                        <p><em>Physical Review Letters</em>, 103, 220601, Nov 2009</p>
+                                        <ul class="fullpaperlink">
+                                            <li class="full-text"><a href="http://dx.doi.org/10.1103/physrevlett.103.220601">Full Text</a></li>
+                                            <li class="arxiv"><a href="http://arxiv.org/abs/0905.0902">arXiv</a></li>
+                                        </ul>
+                                    </div>
+                                    <section class="panel panel-default panel-abstract">
+                                        <div class="panel-heading">
+                                            <h5 class="panel-title"><a class="abstract-btn" role="button" data-toggle="collapse" href="#abstractPRL" aria-expanded="false" aria-controls="panel-abstract">Abstract</a></h5>
+                                        </div>
+                                        <div id="abstractPRL" class="panel-collapse collapse abstract" role="tabpanel" aria-labelledby="abstractPRL">
+                                            <div class="panel-body">
+                                                <p>The quantum dynamics of a one-dimensional bosonic Josephson junction is studied by solving the time-dependent many-boson Schrödinger equation numerically exactly. Already for weak interparticle interactions and on short time scales, the commonly employed mean-field and many-body methods are found to deviate substantially from the exact dynamics. The system exhibits rich many-body dynamics such as enhanced tunneling and a novel equilibration phenomenon of the junction depending on the interaction, which is attributed to a quick loss of coherence.</p>
+                                            </div>
+                                        </div>
+                                    </section>
+                                </div>
+                            </article>
                         </div>
                     </div>
+                    <div class="text-center">
+                        <a href="http://orcid.org/0000-0002-5342-5921"><img alt="Orcid Logo" src="images/orcid_32x32.png"></a> &nbsp;
+                        <a href="http://orcid.org/0000-0002-5342-5921">http://orcid.org/0000-0002-5342-5921</a> contains an up to date list of all of my publications.
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class=" col-md-12 text-center">
-                    <a href="http://orcid.org/0000-0002-5342-5921"><img alt="Orcid Logo" src="images/orcid_32x32.png"></a> &nbsp;
-                    <a href="http://orcid.org/0000-0002-5342-5921">http://orcid.org/0000-0002-5342-5921</a> contains an up to date list of all of my publications. </div>
             </div>
         </div>
     </section>
     <!-- Award section-->
-    <section id="awards">
+    <section id="awards" class="section">
         <div class="container">
             <h2>Awards</h2>
             <div class="row award-row section-padding">
-                <div class="col-md-4 equalHeight">
+                <article class="col-md-4 equalHeight">
                     <div class="row">
                         <div class="col-xs-2 col-md-12 year">
                             <p>2012</p>
@@ -282,8 +255,8 @@
                             <p>Stanford University (USA)</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 equalHeight">
+                </article>
+                <article class="col-md-4 equalHeight">
                     <div class="row">
                         <div class="col-xs-2 col-md-12 year">
                             <p>2011</p>
@@ -294,8 +267,8 @@
                             <p>Springer</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 equalHeight">
+                </article>
+                <article class="col-md-4 equalHeight">
                     <div class="row">
                         <div class="col-xs-2 col-md-12 year">
                             <p>2008</p>
@@ -306,14 +279,12 @@
                             <p>University of Heidelberg (Germany)</p>
                         </div>
                     </div>
-                </div>
+                </article>
             </div>
-            <!--row -->
         </div>
-        <!--container -->
     </section>
     <!-- Contact section-->
-    <section id="contact">
+    <section id="contact" class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -424,8 +395,7 @@
             </div>
         </div>
     </div>
-    <!-- JavaScript
-    ================================================== -->
+    <!-- Scripts -->
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script>

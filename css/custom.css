@@ -1,47 +1,48 @@
-html{
-  height: 100%;
-  font-size: 1em;
-	background-color: black;
+html {
+    height: 100%;
+    font-size: 1em;
+    background-color: black;
 }
 
 
-body{
-  min-height: 2000px; 
-  /*shifts jumbotron section down 50px(height of navbar)*/
-  padding-top: 50px;
-  color: #212121;
-  background-color: #fafafa;
-  font-family: 'Open Sans', sans-serif;
-  position: relative;
-  font-weight: 400;
--webkit-transition:1s opacity;
-transition: 1s opacity;
-
+body {
+    min-height: 2000px;
+    /*shifts jumbotron section down 50px(height of navbar)*/
+    padding-top: 50px;
+    color: #212121;
+    background-color: #fafafa;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    font-weight: 400;
+    -webkit-transition: 1s opacity;
+    transition: 1s opacity;
 }
 
-body.fade-out{
-  opacity: 0;
--webkit-transition:none;
-  transition: none;
+body.fade-out {
+    opacity: 0;
+    -webkit-transition: none;
+    transition: none;
 }
 
-section, footer {
-  padding: 100px 0;
-
+.section,
+footer {
+    padding: 100px 0;
 }
 
-.top-row{
-  padding-top: 45px;
+.top-row {
+    padding-top: 45px;
 }
 
-.section-padding{
-  padding-top: 30px;
+.section-padding {
+    padding-top: 30px;
 }
 
-#awards, #about, footer{
-  background-color: #fff;
-
+#awards,
+#about,
+footer {
+    background-color: #fff;
 }
+
 
 
 
@@ -52,408 +53,409 @@ section, footer {
 /* typography
 -------------------------------------------------- */
 
-h2{
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  }
-
-p.author{
-  text-transform: uppercase;
+h2 {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-a{
-  color: #536DFE;
-  text-decoration: none;
+p.author {
+    text-transform: uppercase;
 }
 
-a:hover{
-  color:#777;
-  text-decoration: none;
+a {
+    color: #536DFE;
+    text-decoration: none;
 }
 
-a:focus{
-  text-decoration: none;
+a:hover {
+    color: #777;
+    text-decoration: none;
 }
+
+a:focus {
+    text-decoration: none;
+}
+
 
 /* section styling
 -------------------------------------------------- */
 
+
 /*navbar*/
-.navbar-custom, footer{
+
+.navbar-custom,
+footer {
     background-color: #fff;
 }
-.navbar-custom{
-  font-family: 'Montserrat', 'Open Sans', sans-serif;
+
+.navbar-custom {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
 }
 
-.navbar-custom .navbar-brand-custom{
-  color:#212121;
+.navbar-custom .navbar-brand-custom {
+    color: #212121;
 }
 
-.navbar-custom .navbar-brand-custom:hover{
-  color:#777;
+.navbar-custom .navbar-brand-custom:hover {
+    color: #777;
 }
 
-.navbar-custom .navbar-brand-custom:focus{
-  color:#212121;
+.navbar-custom .navbar-brand-custom:focus {
+    color: #212121;
 }
 
 
-.navbar-custom .navbar-nav-custom >li>a{
-  color: #212121;
+.navbar-custom .navbar-nav-custom>li>a {
+    color: #212121;
 }
 
-.navbar-custom .navbar-nav-custom >li>a:hover,
-.navbar-custom .navbar-nav-custom >li>a:focus,
+.navbar-custom .navbar-nav-custom>li>a:hover,
+.navbar-custom .navbar-nav-custom>li>a:focus,
 .navbar-custom .navbar-nav-custom>.active>a:hover,
-.navbar-custom .navbar-nav-custom>.active>a:focus{
-  color: #777;
-	background-color: transparent;
+.navbar-custom .navbar-nav-custom>.active>a:focus {
+    color: #777;
+    background-color: transparent;
 }
 
 .navbar-custom .navbar-nav-custom>.active>a:hover,
-.navbar-custom .navbar-nav-custom>.active>a:focus{
-color: #536DFE;
+.navbar-custom .navbar-nav-custom>.active>a:focus {
+    color: #536DFE;
 }
 
 
-.navbar-custom .navbar-nav-custom>.active>a{
-  color: #536DFE;
-  background-color: transparent;
+.navbar-custom .navbar-nav-custom>.active>a {
+    color: #536DFE;
+    background-color: transparent;
 }
 
-.navbar-custom .navbar-toggle-custom{
-  border-color: transparent;
+.navbar-custom .navbar-toggle-custom {
+    border-color: transparent;
 }
 
 .navbar-custom .navbar-toggle-custom:focus,
-.navbar-custom .navbar-toggle-custom:hover{
-  background-color: transparent;
+.navbar-custom .navbar-toggle-custom:hover {
+    background-color: transparent;
 }
 
-.navbar-custom .navbar-toggle-custom .icon-bar-custom{
-  background-color: #212121;
-
+.navbar-custom .navbar-toggle-custom .icon-bar-custom {
+    background-color: #212121;
 }
 
 .navbar-custom .navbar-toggle-custom .icon-bar-custom:hover,
-.navbar-custom .navbar-toggle-custom .icon-bar-custom:focus{
-  background-color: #212121;
+.navbar-custom .navbar-toggle-custom .icon-bar-custom:focus {
+    background-color: #212121;
 }
 
+
 /*Hamburger Animation*/
+
 .navbar-toggle-custom .icon-bar-custom:nth-of-type(2) {
-  top: 1px;
+    top: 1px;
 }
 
 .navbar-toggle-custom .icon-bar-custom:nth-of-type(3) {
-  top: 2px;
+    top: 2px;
 }
 
 .navbar-toggle-custom,
-.icon-bar-custom{
-  position: relative;
-  -webkit-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;
+.icon-bar-custom {
+    position: relative;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 .navbar-toggle-custom.selected .icon-bar-custom:nth-of-type(1) {
-  top: 6px;
-  -webkit-transform: rotate(45deg);
-  transform: rotate(45deg);
+    top: 6px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .navbar-toggle-custom.selected .icon-bar-custom:nth-of-type(2) {
-  background-color: transparent;
+    background-color: transparent;
 }
 
 .navbar-toggle-custom.selected .icon-bar-custom:nth-of-type(3) {
-  top: -6px;
-  -webkit-transform: rotate(-45deg);
-  transform: rotate(-45deg);
+    top: -6px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
 }
+
 
 /*jumbotron*/
 
-.jumbotron{
-  background: #f8f8f8 url('../images/collision_small.png') no-repeat center;
-  background-size: cover;
-  min-height: 100%;
-  min-height: 100vh;
-  /*background-attachment: fixed;*/
-  /*to get rid of white gap below background-image use the following*/
-  margin-bottom: 0px;
-  -webkit-transition: background 2s;
-          transition: background 2s;
+.jumbotron {
+    background: #f8f8f8 url('../images/collision_small.png') no-repeat center;
+    background-size: cover;
+    min-height: 100%;
+    min-height: 100vh;
+    /*background-attachment: fixed;*/
+    /*to get rid of white gap below background-image use the following*/
+    margin-bottom: 0px;
+    -webkit-transition: background 2s;
+    transition: background 2s;
 }
 
+
 /*About section*/
-#about p.lead-text{
-  padding-top: 30px;
+
+#about p.lead-text {
+    padding-top: 30px;
 }
-.p-wrapper{
-  max-width: 95%;
+
+.p-wrapper {
+    max-width: 95%;
 }
+
 
 
 /*publication section*/
 
-.fullpaperlink{
-list-style-type: none;
-margin:0;
-padding:0;
+.fullpaperlink {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-.fullpaperlink li{
-  display:inline-block;
+.fullpaperlink li {
+    display: inline-block;
 }
 
 .fullpaperlink li a {
-  display: block;
-  text-align: center;
-  padding-right: 16px;
+    display: block;
+    text-align: center;
+    padding-right: 16px;
 }
 
-.full-text{
-  border-right: 1px solid #ddd;
+.full-text {
+    border-right: 1px solid #ddd;
 }
 
-.arxiv{
-  padding-left: 16px;
-  border-right: 1px solid #ddd;
+.arxiv {
+    padding-left: 16px;
+    border-right: 1px solid #ddd;
 }
 
-.panel-abstract{
-  box-shadow: none;
-  -webkit-box-shadow: none;
-  border-radius: 0;
+.panel-abstract {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-radius: 0;
 }
 
-.panel-abstract > .panel-heading{
-  background-color:#fff;
-  border-color: transparent;
+.panel-abstract>.panel-heading {
+    background-color: #fff;
+    border-color: transparent;
 }
 
-.panel-abstract > .panel-heading > h4{
-  font-size: 1em;
-}
-
-
-a.abstract-btn:after{
-  content:"\f068";
-  margin-left: 8px;
-  float:right;
-  margin-top: 2px;
-  font-family: 'FontAwesome';
-  font-size: 1.1429em;
+.panel-abstract>.panel-heading>h4 {
+    font-size: 1em;
 }
 
 
-
-
-a.abstract-btn.collapsed:after{
-  content:"\f067";
-  margin-left: 8px;
-  float:right;
-  margin-top: 2px;
-  font-family: "FontAwesome";
-  font-size:1.1429em;
+a.abstract-btn:after {
+    content: "\f068";
+    margin-left: 8px;
+    float: right;
+    margin-top: 2px;
+    font-family: 'FontAwesome';
+    font-size: 1.1429em;
 }
 
 
-.abstract > .panel-body{
-  border-top: 1px solid;
-  border-top-color: #ddd;
-  background-color: #fff;
-  /*color: #ddd;*/
-}
-
-.btn-block{
-  text-align:left;
-}
 
 
-.pub-img{
-  margin: 30px auto;
+a.abstract-btn.collapsed:after {
+    content: "\f067";
+    margin-left: 8px;
+    float: right;
+    margin-top: 2px;
+    font-family: "FontAwesome";
+    font-size: 1.1429em;
 }
 
-.thumbnail-detail{
-margin-top: 30px;
-margin-bottom: 30px;
+
+.abstract>.panel-body {
+    border-top: 1px solid;
+    border-top-color: #ddd;
+    background-color: #fff;
+    /*color: #ddd;*/
 }
 
-#img-nature{
-  width: 80%;
-  max-width: 550px;
+.btn-block {
+    text-align: left;
 }
 
-.panel-default-custom{
-  border-color: #EEEEEE;
-  box-shadow: 1px rgba(0, 0, 0, 0.1);
-  margin-bottom: 30px;
+
+.pub-img {
+    margin: 30px auto;
 }
+
+.thumbnail-detail {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#img-nature {
+    width: 80%;
+    max-width: 550px;
+}
+
+.panel-default-custom {
+    border-color: #EEEEEE;
+    box-shadow: 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
 
 
 /*Modal sections*/
 
-a.image-link:focus{
-  outline: none;
+a.image-link:focus {
+    outline: none;
 }
 
-.modal-image{
-padding: 30px 15px;
-margin: 15px auto;
-display:block;
+.modal-image {
+    padding: 30px 15px;
+    margin: 15px auto;
+    display: block;
 }
 
-#modal-image-nature{
-  width: 100%;
-  max-width: 100%;
+#modal-image-nature {
+    width: 100%;
+    max-width: 100%;
 }
 
-.figure-caption{
-  margin: 15px auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.figure-caption {
+    margin: 15px auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
-.close-custom{
-  color:#212121;
-  opacity:1;
-	font-size: 35px;
-	margin-right: 10px;
+.close-custom {
+    color: #212121;
+    opacity: 1;
+    font-size: 35px;
+    margin-right: 10px;
 }
 
-.close-custom:hover{
-  color:#777;
+.close-custom:hover {
+    color: #777;
 }
 
-.btn-close-custom{
-  border-color: #536DFE;
-  color:#536DFE;
-  font-weight: 400;
-  border: 2px solid;  
-  border-radius: 30px;
+.btn-close-custom {
+    border-color: #536DFE;
+    color: #536DFE;
+    font-weight: 400;
+    border: 2px solid;
+    border-radius: 30px;
 }
 
 .btn-close-custom:hover,
-.btn-close-custom:focus{
-  border-color: #777;
-  color:#777;
-  background-color: #fff;
-
+.btn-close-custom:focus {
+    border-color: #777;
+    color: #777;
+    background-color: #fff;
 }
 
 
+
 /*Award section*/
+
 
 /*.year > p {
   padding-top: 10px;
 }*/
 
-.award-name{
-  margin-top: 0;
+.award-name {
+    margin-top: 0;
 }
 
-.award-row > .col-md-4{
-padding-top: 15px;
+.award-row>.col-md-4 {
+    padding-top: 15px;
 }
 
- /* images and icons
+
+/* images and icons
  -------------------------------------------------- */
 
- .profile-photo{
-  margin-top: 60px;
-  max-width: 200px;
-  border-radius: 100%;
+.profile-photo {
+    margin-top: 60px;
+    max-width: 200px;
+    border-radius: 100%;
 }
 
-.social-icon{
-	color: #777;
-  margin-bottom: 30px;
+.social-icon {
+    color: #777;
+    margin-bottom: 30px;
 }
 
-.social-icon:hover{
-  color: #212121;
-  margin-bottom: 30px;
+.social-icon:hover {
+    color: #212121;
+    margin-bottom: 30px;
 }
+
 
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
+@media only screen and (min-width: 768px) {
 
-@media only screen and (min-width : 768px) {
-  
-.panel-custom{
-  padding: 30px;
+    .panel-custom {
+        padding: 30px;
+    }
+
+    .panel-default-custom {
+        margin-bottom: 60px;
+    }
 }
 
-.panel-default-custom{
-  margin-bottom: 60px;
-}
-
-}
 
 
 
 
 
-
-@media screen and (min-width: 930px){
-
-/* switch to large image
+@media screen and (min-width: 930px) {
+    /* switch to large image
 -------------------------------------------------- */
-.jumbotron{
-  background: #f8f8f8 url('../images/collision_landscape.png') no-repeat center;
-  background-size: cover;
-  min-height: 100%;
-  min-height: 100vh;
-  /*background-attachment: fixed;*/
-  margin-bottom: 0;
+    .jumbotron {
+        background: #f8f8f8 url('../images/collision_landscape.png') no-repeat center;
+        background-size: cover;
+        min-height: 100%;
+        min-height: 100vh;
+        /*background-attachment: fixed;*/
+        margin-bottom: 0;
+    }
 }
 
-}
-
-@media screen and (min-width: 992px){
-
-/*.lead-text{
+@media screen and (min-width: 992px) {
+    /*.lead-text{
   padding-right: 80px;
   font-size: 16px;
 }*/
+    .profile-photo {
+        margin-top: 30px;
+    }
 
-.profile-photo{
-  margin-top: 30px;
-  }
+    .award-row {
+        text-align: center;
+    }
 
-.award-row{
-  text-align: center;
+    .year>p {
+        font-size: 18px;
+    }
+
+    .fa-shield {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: #777;
+    }
+
+    .equalHeight:not(:last-of-type) {
+        border-right: 2px solid #eee;
+        padding: 15px 20px;
+    }
+    .social-icon {
+        font-size: 2.5714em;
+    }
 }
-
-.year > p{
-font-size: 18px;
-}
-
-.fa-shield{
-padding-top: 30px;
-padding-bottom: 30px;
-color: #777;
-}
-
-.equalHeight:not(:last-of-type){
-  border-right: 2px solid #eee;
-  padding: 15px 20px;
-}
-.social-icon{
-  font-size: 2.5714em;
-}
-
-
-}
-
-
-
-
-
-
